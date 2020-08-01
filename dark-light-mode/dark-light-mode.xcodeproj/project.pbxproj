@@ -13,8 +13,8 @@
 		66B0FC3224D4C9DB00C95B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B0FC3024D4C9DB00C95B1F /* Main.storyboard */; };
 		66B0FC3424D4C9DD00C95B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B0FC3324D4C9DD00C95B1F /* Assets.xcassets */; };
 		66B0FC3724D4C9DD00C95B1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B0FC3524D4C9DD00C95B1F /* LaunchScreen.storyboard */; };
-		66B0FC4024D4CA9B00C95B1F /* dark_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66B0FC3E24D4CA9B00C95B1F /* dark_background.pdf */; };
 		66B0FC4124D4CA9B00C95B1F /* light_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66B0FC3F24D4CA9B00C95B1F /* light_background.pdf */; };
+		66B0FC4724D6134E00C95B1F /* dark_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66B0FC4524D6134E00C95B1F /* dark_background.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		66B0FC3324D4C9DD00C95B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66B0FC3624D4C9DD00C95B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66B0FC3824D4C9DD00C95B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66B0FC3E24D4CA9B00C95B1F /* dark_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = dark_background.pdf; sourceTree = "<group>"; };
 		66B0FC3F24D4CA9B00C95B1F /* light_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = light_background.pdf; sourceTree = "<group>"; };
+		66B0FC4524D6134E00C95B1F /* dark_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = dark_background.pdf; path = ../dark_background.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +60,16 @@
 		66B0FC2924D4C9DB00C95B1F /* dark-light-mode */ = {
 			isa = PBXGroup;
 			children = (
-				66B0FC4224D4CAB500C95B1F /* view */,
-				66B0FC4324D4CAE300C95B1F /* controller */,
-				66B0FC3E24D4CA9B00C95B1F /* dark_background.pdf */,
-				66B0FC3F24D4CA9B00C95B1F /* light_background.pdf */,
 				66B0FC2A24D4C9DB00C95B1F /* AppDelegate.swift */,
 				66B0FC2C24D4C9DB00C95B1F /* SceneDelegate.swift */,
+				66B0FC4424D6126600C95B1F /* model */,
+				66B0FC4224D4CAB500C95B1F /* view */,
+				66B0FC4324D4CAE300C95B1F /* controller */,
 				66B0FC3324D4C9DD00C95B1F /* Assets.xcassets */,
 				66B0FC3524D4C9DD00C95B1F /* LaunchScreen.storyboard */,
 				66B0FC3824D4C9DD00C95B1F /* Info.plist */,
+				66B0FC3F24D4CA9B00C95B1F /* light_background.pdf */,
+				66B0FC4524D6134E00C95B1F /* dark_background.pdf */,
 			);
 			path = "dark-light-mode";
 			sourceTree = "<group>";
@@ -87,6 +88,13 @@
 				66B0FC2E24D4C9DB00C95B1F /* ViewController.swift */,
 			);
 			path = controller;
+			sourceTree = "<group>";
+		};
+		66B0FC4424D6126600C95B1F /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66B0FC4724D6134E00C95B1F /* dark_background.pdf in Resources */,
 				66B0FC4124D4CA9B00C95B1F /* light_background.pdf in Resources */,
-				66B0FC4024D4CA9B00C95B1F /* dark_background.pdf in Resources */,
 				66B0FC3724D4C9DD00C95B1F /* LaunchScreen.storyboard in Resources */,
 				66B0FC3424D4C9DD00C95B1F /* Assets.xcassets in Resources */,
 				66B0FC3224D4C9DB00C95B1F /* Main.storyboard in Resources */,
